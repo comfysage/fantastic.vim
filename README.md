@@ -1,12 +1,10 @@
-# pascal.vim
 
-This is a fork of [vim-colors-plain](https://github.com/andreypopp/vim-colors-plain) which is being developed based on my
-personal taste.
+# fantastic.vim
 
 ## Motivation
 
-Minimalistic colorscheme which uses bold to highlight keywords and a
-distinguished color for constant literals (string, numbers, JSX tags).
+A Minimalistic colorscheme which uses a basic color palette to highlight
+keywords and distinguishes color for constant, literals, strings, etc. .
 
 <!-- TODO #1 Add screenshots @CrispyBaccoon -->
 
@@ -15,22 +13,13 @@ distinguished color for constant literals (string, numbers, JSX tags).
 With [vim-plug](https://github.com/junegunn/vim-plug) you add this to your `.vimrc` / `init.vim`:
 
 ```Vim
-Plug 'crispybaccoon/pascal.vim'
+Plug 'crispybaccoon/fantastic.vim'
 ```
 
 Then:
 
 ```Vim
 set background=dark " Set to light for a light variant
-colorscheme pascal
+colorscheme fantastic
 ```
 
-<!-- ## FAQ
-
-- Is this Vim or Neovim on the screenshots and why?
-
-  This is Neovim.
-
-- What font is being used on the screenshots?
-
-  I use Fira Code. -->
