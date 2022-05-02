@@ -10,61 +10,32 @@ endif
 
 let g:colors_name='fantastic'
 
-if g:fantastic_rose_pine == 1
-  let s:black  = { "gui": "#232136" }
+let s:black  = { "gui": "#161821" }
 
-  let s:red    = { "gui": "#eb6f92" }
-  let s:green  = { "gui": "#9ccfd8" }
-  let s:yellow = { "gui": "#f6c177" }
-  let s:blue   = { "gui": "#3e8fb0" }
-  let s:magenta= { "gui": "#c4a7e7" }
-  let s:cyan   = { "gui": "#ea9a97" }
-  let s:white  = { "gui": "#e0def4" }
-  let s:gray   = { "gui": "#706b5f" }
+let s:red           = { "gui": "#E27878" }
+let s:green         = { "gui": "#B4BE82" }
+let s:yellow        = { "gui": "#E2A478" }
+let s:blue          = { "gui": "#84A0C6" }
+let s:magenta       = { "gui": "#A093C7" }
+let s:cyan          = { "gui": "#89B8C2" }
+let s:white         = { "gui": "#C6C8D1" }
+let s:gray          = { "gui": "#3A3A4D" }
 
-  let s:light_red     = { "gui": "#eb6f92" }
-  let s:light_green   = { "gui": "#9ccfd8" }
-  let s:light_yellow  = { "gui": "#f6c177" }
-  let s:light_blue    = { "gui": "#31748f" }
-  let s:light_magenta = { "gui": "#c4a7e7" }
-  let s:light_cyan    = { "gui": "#ebbcba" }
-  let s:light_gray    = { "gui": "#7d7769" }
+let s:light_red     = { "gui": "#DC888A" }
+let s:light_green   = { "gui": "#B8C092" }
+let s:light_yellow  = { "gui": "#DCAB8A" }
+let s:light_blue    = { "gui": "#91A8C8" }
+let s:light_magenta = { "gui": "#A89EC9" }
+let s:light_cyan    = { "gui": "#95BBC5" }
+let s:light_gray    = { "gui": "#484a53" }
 
-  let s:dark_red     = { "gui": "#C28A93" }
-  let s:dark_green   = { "gui": "#83AE58" }
-  let s:dark_yellow  = { "gui": "#D2A752" }
-  let s:dark_blue    = { "gui": "#7F9EBB" }
-  let s:dark_magenta = { "gui": "#B49DC9" }
-  let s:dark_cyan    = { "gui": "#72A181" }
-  let s:dark_gray    = { "gui": "#3f3f43" }
-else
-  let s:black  = { "gui": "#202330" }
-
-  let s:red    = { "gui": "#eba4ac" }
-  let s:green  = { "gui": "#9cd162" }
-  let s:yellow = { "gui": "#ffc85b" }
-  let s:blue   = { "gui": "#97bdde" }
-  let s:magenta= { "gui": "#d9bcef" }
-  let s:cyan   = { "gui": "#87c095" }
-  let s:white  = { "gui": "#dbcca3" }
-  let s:gray   = { "gui": "#706b5f" }
-
-  let s:light_red     = { "gui": "#EEB2AE" }
-  let s:light_green   = { "gui": "#AFD673" }
-  let s:light_yellow  = { "gui": "#FECE6D" }
-  let s:light_blue    = { "gui": "#ABC6D6" }
-  let s:light_magenta = { "gui": "#E0C5E4" }
-  let s:light_cyan    = { "gui": "#9EC89C" }
-  let s:light_gray    = { "gui": "#7d7769" }
-
-  let s:dark_red     = { "gui": "#C28A93" }
-  let s:dark_green   = { "gui": "#83AE58" }
-  let s:dark_yellow  = { "gui": "#D2A752" }
-  let s:dark_blue    = { "gui": "#7F9EBB" }
-  let s:dark_magenta = { "gui": "#B49DC9" }
-  let s:dark_cyan    = { "gui": "#72A181" }
-  let s:dark_gray    = { "gui": "#3f3f43" }
-endif
+let s:dark_red      = { "gui": "#B96567" }
+let s:dark_green    = { "gui": "#949D6F" }
+let s:dark_yellow   = { "gui": "#B98867" }
+let s:dark_blue     = { "gui": "#6E85A5" }
+let s:dark_magenta  = { "gui": "#847AA6" }
+let s:dark_cyan     = { "gui": "#7298A2" }
+let s:dark_gray     = { "gui": "#2f313a" }
 
 " https://github.com/noahfrederick/vim-hemisu/
 function! s:h(group, style)
@@ -96,13 +67,13 @@ call s:h("LightMagenta",  { "fg": s:light_magenta, "gui": "NONE" })
 call s:h("LightCyan",     { "fg": s:light_cyan, "gui": "NONE" })
 call s:h("LightGray",     { "fg": s:light_gray, "gui": "NONE" })
 
-call s:h("DarkRed",       { "fg": s:red, "gui": "NONE" })
-call s:h("DarkGreen",     { "fg": s:green, "gui": "NONE" })
-call s:h("DarkYellow",    { "fg": s:yellow, "gui": "NONE" })
-call s:h("DarkBlue",      { "fg": s:blue, "gui": "NONE" })
-call s:h("DarkMagenta",   { "fg": s:magenta, "gui": "NONE" })
-call s:h("DarkCyan",      { "fg": s:cyan, "gui": "NONE" })
-call s:h("DarkGray",      { "fg": s:gray, "gui": "NONE" })
+call s:h("DarkRed",       { "fg": s:dark_red, "gui": "NONE" })
+call s:h("DarkGreen",     { "fg": s:dark_green, "gui": "NONE" })
+call s:h("DarkYellow",    { "fg": s:dark_yellow, "gui": "NONE" })
+call s:h("DarkBlue",      { "fg": s:dark_blue, "gui": "NONE" })
+call s:h("DarkMagenta",   { "fg": s:dark_magenta, "gui": "NONE" })
+call s:h("DarkCyan",      { "fg": s:dark_cyan, "gui": "NONE" })
+call s:h("DarkGray",      { "fg": s:dark_gray, "gui": "NONE" })
 
 " Basic UI {{{
 
@@ -156,7 +127,7 @@ hi! link Special LightRed
 hi! link PreProc LightBlue
 hi! link Boolean Magenta
 hi! link Variable LightMagenta
-hi! link String Cyan
+hi! link String Blue
 hi! link Keyword Red
 hi! link Function Green 
 " }}}
