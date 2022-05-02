@@ -96,13 +96,13 @@ call s:h("LightMagenta",  { "fg": s:light_magenta, "gui": "NONE" })
 call s:h("LightCyan",     { "fg": s:light_cyan, "gui": "NONE" })
 call s:h("LightGray",     { "fg": s:light_gray, "gui": "NONE" })
 
-call s:h("DarkRed",       { "fg": s:dark_red, "gui": "NONE" })
-call s:h("DarkGreen",     { "fg": s:dark_green, "gui": "NONE" })
-call s:h("DarkYellow",    { "fg": s:dark_yellow, "gui": "NONE" })
-call s:h("DarkBlue",      { "fg": s:dark_blue, "gui": "NONE" })
-call s:h("DarkMagenta",   { "fg": s:dark_magenta, "gui": "NONE" })
-call s:h("DarkCyan",      { "fg": s:dark_cyan, "gui": "NONE" })
-call s:h("DarkGray",      { "fg": s:dark_gray, "gui": "NONE" })
+call s:h("DarkRed",       { "fg": s:red, "gui": "NONE" })
+call s:h("DarkGreen",     { "fg": s:green, "gui": "NONE" })
+call s:h("DarkYellow",    { "fg": s:yellow, "gui": "NONE" })
+call s:h("DarkBlue",      { "fg": s:blue, "gui": "NONE" })
+call s:h("DarkMagenta",   { "fg": s:magenta, "gui": "NONE" })
+call s:h("DarkCyan",      { "fg": s:cyan, "gui": "NONE" })
+call s:h("DarkGray",      { "fg": s:gray, "gui": "NONE" })
 
 " Basic UI {{{
 
@@ -329,6 +329,7 @@ hi link vimLet Statement
 hi link vimFuncName Variable
 hi link vimUserFunc vimFuncName
 hi link vimOper vimHighlight
+hi link helpExample markdownCodeBlock
 " }}}
 
 " Dosini {{{
