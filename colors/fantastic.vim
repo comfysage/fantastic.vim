@@ -12,16 +12,16 @@ let g:colors_name='fantastic'
 
 let s:p = {}
 
-let s:p.black       = { "gui": "#161821" }
-
-let s:red           = { "gui": "#E27878" }
-let s:green         = { "gui": "#B4BE82" }
-let s:yellow        = { "gui": "#E2A478" }
-let s:blue          = { "gui": "#84A0C6" }
-let s:magenta       = { "gui": "#A093C7" }
-let s:cyan          = { "gui": "#89B8C2" }
-let s:p.white       = { "gui": "#C6C8D1" }
-let s:gray          = { "gui": "#3A3A4D" }
+let s:p.black         = { "gui": "#161821" }
+                      
+let s:red             = { "gui": "#E27878" }
+let s:green           = { "gui": "#B4BE82" }
+let s:yellow          = { "gui": "#E2A478" }
+let s:blue            = { "gui": "#84A0C6" }
+let s:magenta         = { "gui": "#A093C7" }
+let s:cyan            = { "gui": "#89B8C2" }
+let s:p.white         = { "gui": "#C6C8D1" }
+let s:gray            = { "gui": "#3A3A4D" }
 
 let s:p.light_red     = { "gui": "#DC888A" }
 let s:p.light_green   = { "gui": "#B8C092" }
