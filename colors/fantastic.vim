@@ -334,6 +334,13 @@ hi link goDeclaration Statement
 hi link goBuiltins Include
 
 " }}}
+
+" Coffee {{{
+
+hi link coffeeKeyword Keyword
+hi link coffeeConditional Conditional
+
+" }}}
 " ALE {{{
 hi link ALEWarning WarningMsg
 hi link ALEWarningSign WarningMsg
