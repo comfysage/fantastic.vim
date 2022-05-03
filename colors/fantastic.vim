@@ -233,7 +233,6 @@ call s:h("MatchParen",    {"bg": s:light_gray, "fg": s:white})
 hi link diffRemoved       DiffDelete
 hi link diffAdded         DiffAdd
 hi link yamlBlockMappingKey Statement
-hi link pythonOperator Statement
 
 hi link NERDTreeFile      White
 
@@ -312,6 +311,17 @@ hi link dosiniLabel Constant
 hi link dosiniValue Variable
 " }}}
 
+" Python {{{
+
+hi link pythonOperator Operator
+hi link pythonInclude Include
+hi link pythonStatement Statement
+hi link pythonConditional Conditional
+hi link pythonRepeat Repeat
+hi link pythonException Exception
+hi link pythonFunction Function
+
+" }}}
 " ALE {{{
 hi link ALEWarning WarningMsg
 hi link ALEWarningSign WarningMsg
