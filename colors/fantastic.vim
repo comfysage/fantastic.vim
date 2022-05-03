@@ -322,6 +322,18 @@ hi link pythonException Exception
 hi link pythonFunction Function
 
 " }}}
+
+" Go {{{
+
+hi link goStatement Statement
+hi link goConditional Conditional
+hi link goRepeat Repeat
+hi link goException Exception
+hi link goConstants Constant
+hi link goDeclaration Statement
+hi link goBuiltins Include
+
+" }}}
 " ALE {{{
 hi link ALEWarning WarningMsg
 hi link ALEWarningSign WarningMsg
