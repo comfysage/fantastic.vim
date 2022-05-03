@@ -13,7 +13,7 @@ keywords and distinguishes color for constant, literals, strings, etc. .
 With [vim-plug](https://github.com/junegunn/vim-plug) you add this to your `.vimrc` / `init.vim`:
 
 ```Vim
-Plug 'crispybaccoon/fantastic.vim'
+Plug 'crispybaccoon/fantastic.vim' { 'branch': 'next' }
 ```
 
 Then:
