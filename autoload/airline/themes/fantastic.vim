@@ -68,21 +68,21 @@ function! airline#themes#fantastic#refresh()
   let s:I2 = s:N2
   let s:I3 = [ s:colors.blue.gui, s:colors.cursor_grey.gui, s:term_blue, '' ]
   let g:airline#themes#fantastic#palette.insert = airline#themes#generate_color_map(s:I1, s:I2, s:I3)
-  let g:airline#themes#fantastic#palette.insert_modified = g:airline#themes#pascal#palette.normal_modified
+  let g:airline#themes#fantastic#palette.insert_modified = g:airline#themes#fantastic#palette.normal_modified
 
   " ## Replace Mode
   let s:R1 = [ s:colors.cursor_grey.gui, s:colors.red.gui, s:term_cursor_grey, s:term_red ]
   let s:R2 = s:N2
   let s:R3 = [ s:colors.red.gui, s:colors.cursor_grey.gui, s:term_red, '' ]
   let g:airline#themes#fantastic#palette.replace = airline#themes#generate_color_map(s:R1, s:R2, s:R3)
-  let g:airline#themes#fantastic#palette.replace_modified = g:airline#themes#pascal#palette.normal_modified
+  let g:airline#themes#fantastic#palette.replace_modified = g:airline#themes#fantastic#palette.normal_modified
 
   " ## Visual Mode
   let s:V1 = [ s:colors.cursor_grey.gui, s:colors.purple.gui, s:term_cursor_grey, s:term_purple ]
   let s:V2 = s:N2
   let s:V3 = [ s:colors.purple.gui, s:colors.cursor_grey.gui, s:term_purple, '' ]
   let g:airline#themes#fantastic#palette.visual = airline#themes#generate_color_map(s:V1, s:V2, s:V3)
-  let g:airline#themes#fantastic#palette.visual_modified = g:airline#themes#pascal#palette.normal_modified
+  let g:airline#themes#fantastic#palette.visual_modified = g:airline#themes#fantastic#palette.normal_modified
 
   " ## Inactive Mode
   let s:IA1 = [ s:colors.cursor_grey.gui, s:colors.white.gui, s:term_cursor_grey, s:term_white ]
