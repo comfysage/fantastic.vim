@@ -169,7 +169,7 @@ hi! link Identifier Cyan
 hi! link Constant Magenta
 hi! link Statement Yellow
 hi! link Type LightGreen
-hi! link Special LightRed
+hi! link Special LightYellow
 hi! link PreProc LightBlue
 hi! link Boolean Magenta
 hi! link Variable LightMagenta
