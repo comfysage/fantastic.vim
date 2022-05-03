@@ -341,6 +341,24 @@ hi link coffeeKeyword Keyword
 hi link coffeeConditional Conditional
 
 " }}}
+
+" Ruby {{{
+
+hi link rubyAttribute              Identifier
+hi link rubyInclude                Include
+hi link rubyLocalVariableOrMethod  Method
+hi link rubyCurlyBlock             Keyword
+hi link rubyConstant               Constant
+" hi link rubyInterpolation          
+" hi link rubyInterpolationDelimiter 
+" hi link rubyRegexp
+" hi link rubySymbol                 
+hi link rubyStringDelimiter        String
+hi link rubyConditional            Conditonal
+hi link rubyRepeat                 Repeat
+
+" }}}
+
 " ALE {{{
 hi link ALEWarning WarningMsg
 hi link ALEWarningSign WarningMsg
