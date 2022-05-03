@@ -306,6 +306,7 @@ hi link VimwikiHeader3 markdownH3
 
 " Vim {{{
 hi link vimHighlight Statement
+hi link vimFunction Function
 hi link vimVar Variable
 hi link vimLet Statement
 hi link vimFuncName Variable
