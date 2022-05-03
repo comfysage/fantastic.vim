@@ -16,7 +16,7 @@ colorscheme made by [cocopon](https://github.com/cocopon/).
 With [vim-plug](https://github.com/junegunn/vim-plug) you add this to your `.vimrc` / `init.vim`:
 
 ```Vim
-Plug 'crispybaccoon/fantastic.vim' { 'branch': 'next' }
+Plug 'crispybaccoon/fantastic.vim'
 ```
 
 Then:
