@@ -276,17 +276,26 @@ hi link xmlAttrib xmlTag
 " }}}
 
 " Markdown {{{
+
 hi link markdownH1 htmlH1
 hi link markdownH2 htmlH2
 hi link markdownH3 htmlH3
 hi link markdownH4 htmlH4
 hi link markdownH5 htmlH5
 hi link markdownH6 htmlH6
-hi link markdownListMarker Constant
-hi link markdownCode Constant
-hi link markdownCodeBlock Constant
-hi link markdownCodeDelimiter Constant
+hi link markdownBold Yellow
+hi link markdownBoldDelimiter markdownBold
+hi link markdownItalic Cyan
+hi link markdownItalicDelimiter markdownItalic
+hi link markdownUrl LightBlue
+hi link markdownLinkDelimiter Blue
+hi link markdownLinkText LightYellow
+hi link markdownListMarker LightYellow
+hi link markdownCode LightMagenta
+hi link markdownCodeBlock markdownCode
+hi link markdownCodeDelimiter markdownCode
 hi link markdownHeadingDelimiter Constant
+
 " }}}
 
 " VimWiki {{{
