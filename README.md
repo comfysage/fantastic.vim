@@ -3,7 +3,7 @@
 
 ## Motivation
 
-A Minimalistic colorscheme which uses a basic color palette to highlight
+A Minimalistic colorscheme which uses a vibrant color palette to highlight
 keywords and distinguishes color for constant, literals, strings, etc. .
 
 <!-- TODO #1 Add screenshots @CrispyBaccoon -->
