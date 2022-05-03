@@ -10,7 +10,9 @@ endif
 
 let g:colors_name='fantastic'
 
-let s:black  = { "gui": "#161821" }
+let s:p = {}
+
+let s:p.black       = { "gui": "#161821" }
 
 let s:red           = { "gui": "#E27878" }
 let s:green         = { "gui": "#B4BE82" }
@@ -18,24 +20,66 @@ let s:yellow        = { "gui": "#E2A478" }
 let s:blue          = { "gui": "#84A0C6" }
 let s:magenta       = { "gui": "#A093C7" }
 let s:cyan          = { "gui": "#89B8C2" }
-let s:white         = { "gui": "#C6C8D1" }
+let s:p.white       = { "gui": "#C6C8D1" }
 let s:gray          = { "gui": "#3A3A4D" }
 
-let s:light_red     = { "gui": "#DC888A" }
-let s:light_green   = { "gui": "#B8C092" }
-let s:light_yellow  = { "gui": "#DCAB8A" }
-let s:light_blue    = { "gui": "#91A8C8" }
-let s:light_magenta = { "gui": "#A89EC9" }
-let s:light_cyan    = { "gui": "#95BBC5" }
-let s:light_gray    = { "gui": "#484a53" }
+let s:p.light_red     = { "gui": "#DC888A" }
+let s:p.light_green   = { "gui": "#B8C092" }
+let s:p.light_yellow  = { "gui": "#DCAB8A" }
+let s:p.light_blue    = { "gui": "#91A8C8" }
+let s:p.light_magenta = { "gui": "#A89EC9" }
+let s:p.light_cyan    = { "gui": "#95BBC5" }
+let s:p.light_gray    = { "gui": "#484a53" }
 
-let s:dark_red      = { "gui": "#B96567" }
-let s:dark_green    = { "gui": "#949D6F" }
-let s:dark_yellow   = { "gui": "#B98867" }
-let s:dark_blue     = { "gui": "#6E85A5" }
-let s:dark_magenta  = { "gui": "#847AA6" }
-let s:dark_cyan     = { "gui": "#7298A2" }
-let s:dark_gray     = { "gui": "#2f313a" }
+let s:p.dark_red      = { "gui": "#B96567" }
+let s:p.dark_green    = { "gui": "#949D6F" }
+let s:p.dark_yellow   = { "gui": "#B98867" }
+let s:p.dark_blue     = { "gui": "#6E85A5" }
+let s:p.dark_magenta  = { "gui": "#847AA6" }
+let s:p.dark_cyan     = { "gui": "#7298A2" }
+let s:p.dark_gray     = { "gui": "#2f313a" }
+
+if &background == 'dark'
+
+  let s:black = s:p.black
+  let s:white = s:p.white
+
+  let s:light_red     = s:p.light_red
+  let s:light_green   = s:p.light_green
+  let s:light_yellow  = s:p.light_yellow
+  let s:light_blue    = s:p.light_blue
+  let s:light_magenta = s:p.light_magenta
+  let s:light_cyan    = s:p.light_cyan
+  let s:light_gray    = s:p.light_gray
+                                          
+  let s:dark_red      = s:p.dark_red
+  let s:dark_green    = s:p.dark_green
+  let s:dark_yellow   = s:p.dark_yellow
+  let s:dark_blue     = s:p.dark_blue
+  let s:dark_magenta  = s:p.dark_magenta
+  let s:dark_cyan     = s:p.dark_cyan
+  let s:dark_gray     = s:p.dark_gray
+else
+
+  let s:black = s:p.white
+  let s:white = s:p.black
+
+  let s:light_red     = s:p.dark_red
+  let s:light_green   = s:p.dark_green
+  let s:light_yellow  = s:p.dark_yellow
+  let s:light_blue    = s:p.dark_blue
+  let s:light_magenta = s:p.dark_magenta
+  let s:light_cyan    = s:p.dark_cyan
+  let s:light_gray    = s:p.dark_gray
+                                          
+  let s:dark_red      = s:p.light_red
+  let s:dark_green    = s:p.light_green
+  let s:dark_yellow   = s:p.light_yellow
+  let s:dark_blue     = s:p.light_blue
+  let s:dark_magenta  = s:p.light_magenta
+  let s:dark_cyan     = s:p.light_cyan
+  let s:dark_gray     = s:p.light_gray
+endif
 
 " https://github.com/noahfrederick/vim-hemisu/
 function! s:h(group, style)
