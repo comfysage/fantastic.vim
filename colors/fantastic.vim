@@ -87,6 +87,8 @@ call s:h("TabLineSel", { "bg": s:black, "fg": s:red  , "gui": "NONE" })
 call s:h("TabLine",    { "bg": s:black, "fg": s:white, "gui": "NONE" })
 
 hi! link ModeMsg Red
+
+call s:h("Cursor", { "bg": s:yellow })
 call s:h("CursorLine", { "bg": s:dark_magenta, "gui": "NONE" })
 call s:h("CursorLineNr", { "fg": s:yellow })
 
@@ -172,6 +174,7 @@ hi! link ModeMsg          MoreMsg
 
 " NonText {{{
 call s:h("NonText",       {"fg": s:gray})
+hi! link Conceal          NonText
 hi! link qfLineNr         NonText
 " }}}
 
