@@ -42,9 +42,9 @@ hi! link VertSplit White
 hi! link LineNr    Gray
 hi! link EndOfBuffer TabLine
 
-hi TabLineFill ctermbg=Black ctermfg=White cterm=NONE
-hi TabLineSel ctermbg=Black ctermfg=Red cterm=NONE
-hi TabLine ctermbg=Black ctermfg=White cterm=NONE
+hi TabLineFill ctermbg=NONE ctermfg=White cterm=NONE
+hi TabLineSel ctermbg=NONE ctermfg=Red cterm=NONE
+hi TabLine ctermbg=NONE ctermfg=White cterm=NONE
 
 hi! link ModeMsg Red
 
