@@ -136,6 +136,8 @@ call s:h("Cursor", { "bg": s:yellow })
 call s:h("CursorLine", { "bg": s:dark_magenta, "gui": "NONE" })
 call s:h("CursorLineNr", { "fg": s:yellow })
 
+call s:h("ColorColumn", { "bg": s:gray })
+
 call s:h("Comment", { "fg": s:gray })
 hi! link Folded Comment
 
